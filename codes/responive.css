@@ -1,0 +1,110 @@
+.responsive-logo,
+.responsive-icon {
+    display: none;
+    color: black;
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+        width: 100%;
+     
+
+    }
+
+    .hero-section-left {
+        text-align: center;
+        align-items: center;
+        
+
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    #project2,
+    #project4 {
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .project-container {
+        width: 100%;
+    }
+
+    .projectnum-right {
+        right: -2vw;
+    }
+
+    .projectnum-left {
+        left: -1vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .logocontainer,
+    .nav-items {
+        display: none;
+    }
+
+    .responsive-logo,
+    .responsive-icon {
+        display: block;
+    }
+
+    .responsive-icon i {
+        color: black;
+        padding-right: 2vw;
+    }
+
+
+
+}
+
+@media screen and (max-width:846px) {
+    .project-card {
+        height: 60vw;
+    }
+
+    .page1skill img {
+        width: 10vw;
+
+    }
+
+    .page1skill {
+        background: #000;
+        width: 100%;
+
+    }
+
+    .projectcontent-left {
+        width: 90%;
+        left: 4vw;
+
+
+    }
+
+    .projectcontent-right {
+        width: 90%;
+        right: 0;
+        background: red;
+
+    }
+
+
+}
+
+@media screen and (max-width:783px) {
+    .page1skill img {
+        width: 7vw;
+
+    }
+}
